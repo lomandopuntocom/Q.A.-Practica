@@ -1,0 +1,1 @@
+14:03:47.280 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: examples/PetStore/delete_pet.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
