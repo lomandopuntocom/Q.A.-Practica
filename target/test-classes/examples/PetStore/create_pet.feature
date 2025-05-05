@@ -2,12 +2,12 @@ Feature: Crear mascota en Petstore
   Background:
     * url baseUrl
 
-  Scenario: Crear una nueva mascota
+  Scenario:
     Given path 'pet'
     And request
     """
     {
-      "id": 1,
+      "id": 500,
       "category": {
         "id": 0,
         "name": "Cat"
