@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: examples.ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.664 s <<< FAILURE! - in examples.ExamplesTest
+examples.ExamplesTest.testParallel  Time elapsed: 0.645 s  <<< ERROR!
+java.lang.RuntimeException: not found: examples/PetStore/get_order.feature
+	at com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+	at com.intuit.karate.resource.ResourceUtils.findFeatureFiles(ResourceUtils.java:87)
+	at com.intuit.karate.Runner$Builder.resolveAll(Runner.java:249)
+	at com.intuit.karate.Suite.<init>(Suite.java:171)
+	at com.intuit.karate.Runner$Builder.parallel(Runner.java:516)
+	at examples.ExamplesTest.testParallel(ExamplesTest.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+

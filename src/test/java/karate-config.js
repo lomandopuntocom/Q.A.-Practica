@@ -15,7 +15,7 @@ function fn() {
     // customize
   }
   var config = {
-        baseUrl: 'https://petstore.swagger.io/v2/'
+        baseUrl: 'https://petstore.swagger.io/v2'
       };
   return config;
 }
